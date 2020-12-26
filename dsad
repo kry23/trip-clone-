@@ -1,0 +1,35 @@
+<div class="carousel-inner">
+                          <div class="carousel-item active carousel-flex">
+                            <div class="line-left">
+                                <a href="#">4.7<span id="newEnough2">/5</span> </a><span class="ml-2 outstndng">Sıra dışı</span>
+                                <p>1406 değerlendirme</p>
+                                <p class="trip-eva"> 
+                                    <i class="fab fa-tripadvisor"></i>
+                                    <i class="fas fa-star ml-1"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>                                      
+                                </div>
+                                <div class="line-right">
+                                    <a>Harika küvet,Alışverişe <br>
+                                        uygun <br>
+                                    %97 Öneriliyor</a>
+                                </div>
+                          </div>
+                          
+                         <div class="carousel-item active carousel-grid">
+                             <div class="prop1"><div class=""><p>Mükemmel Temizlik</p><p>4.8</p></div></div>
+                             <div class="prop2"></div>
+                             <div class="prop3"></div>
+                             <div class="prop4"></div>
+                         </div>
+                        </div>
+
+
+
+                         <div><i class="fas fa-bolt mr-2 my-2"></i>Anında Onay</div>  
+                            <div><i class="fas fa-utensils mr-2 my-2"></i>Açık Büfe Amerikan Kahvaltısı, ekstra 26.00 US$</div>  
+                            <div><i class="fas fa-receipt mr-2 my-2"></i>Özel teklif! iadesiz</div> 
+                          
