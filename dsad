@@ -33,3 +33,267 @@
                             <div><i class="fas fa-utensils mr-2 my-2"></i>Açık Büfe Amerikan Kahvaltısı, ekstra 26.00 US$</div>  
                             <div><i class="fas fa-receipt mr-2 my-2"></i>Özel teklif! iadesiz</div> 
                           
+
+
+
+                          -----secondline
+
+                            <div class="second-line">
+            <div class="tab-panel fade  show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul class="list-group list-group-horizontal2 list-group-horizontal">
+                    <li class="list-group-item">
+                        <h6>Gidilecek Yer/Otel Adı</h6>
+                        <!-- <p>Şehir,havaalanı,bölge,cazibe no...</p> -->
+                    </li>
+                    <li class="list-group-item">
+                        <div class="item">
+                            <p>Check-in</p>
+                            <h6>18 Ara Cum</h6>
+                        </div>
+                        <div class="item">
+                            <h6>1 gece</h6>
+                        </div>
+                        <div class="item">
+                            <p>Çıkış</p>
+                            <h6>19 Ara Cmt</h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item list-group-new">
+                        <div class="list-item-3-1">
+                            <p>Odalar ve Misafirler</p>
+                            <h6>1 Oda,1 yetişkin</h6>
+                        </div>
+                        <div class="list-item-3-1">
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                    </li>
+                    <li class="list-group-item list-group-new">
+                        <i class="fa fa-search"></i>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        ---menu bar
+
+
+             <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo3.png" alt="yok"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="hotels.html"
+                  >Oteller <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Uçuşlar</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Trenler</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link"> TatilMaximum Rewards </a>
+              </li>
+             
+            </ul>
+            <div class="form-inline  my-lg-0">
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <a style="cursor: pointer" class="nav-link">
+                    <i class="fas fa-tablet-alt"></i> App
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    </i> Yardım
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      </i> TR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      </i> TRY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Rezervasyonları Ara</a>
+                </li> -->
+                <li class="nav-item active btn text-center">
+                  <a class="nav-link" href="#"
+                    >Kaydol <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item btn text-center">
+                  <a class="nav-link" href="#">Oturum Aç</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+
+
+      ---------------
+
+
+
+          <div class="wrapper-cont">
+    <div class="searchBox">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            href="#home"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+          >
+            <i class="fas fa-hotel"></i> Oteller</a
+          >
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            href="#profile"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+            ><i class="fas fa-plane-departure"></i> Uçuşlar</a
+          >
+        </li>
+ 
+      </ul>
+        <ul class="list-group-mine">
+          <li class="li-item-1">
+              <h6>Gidilecek Yer/Otel Adı</h6>
+              <!-- <p>Şehir,havaalanı,bölge,cazibe no...</p> -->
+          </li>
+          <li class="li-item-2">
+              <div>
+                  <p>Check-in</p>
+                  <h6>18 Ara Cum</h6>
+              </div>
+              <div>
+                  <h6>1 gece</h6>
+              </div>
+              <div>
+                  <p>Çıkış</p>
+                  <h6>19 Ara Cmt</h6>
+              </div>
+          </li>
+          <li class="li-item-3">
+              <div class="list-item-3-1">
+                  <p>Odalar ve Misafirler</p>
+                  <h6>1 Oda,1 yetişkin</h6>
+              </div>
+              <div class="list-item-3-1">
+                  <i class="fa fa-angle-down"></i>
+              </div>
+          </li>
+          <li class="li-item-4">
+              <i class="fa fa-search"></i>
+          </li>
+    
+         <li class="li-item-5">
+            <div class="li-item-5-sub" id="checkbox1">
+              <input type="checkbox"/>
+            <label for="checkbox1">İş için seyahat ediyorum</label>
+            
+            </div>
+            <div class="li-item-5-sub">
+              <input type="checkbox"/>
+            <label>Yıldız Derecelendirmesi
+            </label>
+            </div>
+          </li>
+        </ul>
+        
+      
+  
+    </div>
+    </div>
+
+
+
+       <div>
+                                <p>Check-in</p>
+                                <p><b id="start">asda</b> </p>
+                            </div> 
+                            <div>
+                                <h6>1 gece</h6>
+                            </div>  
+                            <div class="inside-item-3">
+                                <p>Çıkış</p>
+                                <p><b id="end">asda</b> </p>
+                            </div>

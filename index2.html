@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style_anasayfa.css">
+    <link rel="stylesheet" href="daterangepicker.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>TatilMaximum</title>
+</head>
+
+<body>
+
+    <div class="wrapperrr">
+        <div class="main-nav">
+           <div class="flex-me-baby-one-more-time">
+            <a class="logo" href="#"><img src="./img/logo3.png" alt="" /></a>
+            <div class="main-nav-first">
+                <ul>
+                    <li><a href="#">Oteller</a></li>
+                    <li><a href="#">Uçuşlar</a></li>
+                    <li><a href="#">TatilMaximum Rewards</a></li>
+                </ul>
+            </div>
+           </div>
+               
+         
+           
+           
+            <div class="main-nav-second">
+                <ul>
+                    <li><i class="fas fa-tablet-alt"></i> <a> App</a> </li>
+                    <li><a>Yardım </a><i class="fas fa-caret-down"></i></li>
+                    <li><img width="20px" src="./img/turkey.png" alt=""><a></i> TR </a><i class="fas fa-caret-down"></i></li>
+                    <li><a> TRY</a><i class="fas fa-caret-down"></i></li>
+                    <li class="lite"><a href="#">Kaydol</a></li>
+                    <li class="lite2"><a href="#">Oturum Aç</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<main>
+    <div class="banner">
+
+        <div class="container">
+            <div class="searchbar-container">
+                <ul class="selection-tabs ">
+                    <li class="selection-tabs-item1">
+                        <a><i class="fas fa-hotel"></i> Oteller</a>
+                    </li>
+            
+                    <li class="selection-tabs-item2">
+                        <a><i class="fas fa-plane-departure"></i> Uçuşlar</a>
+                    </li>
+                </ul>
+                <ul class="searchbar-list horizontal-width">
+                    <li class="searchbar-item1">
+                        <h6>Gidilecek Yer/Otel Adı</h6>
+                    </li>
+                    <li class="searchbar-item2">
+                        <div class="item2-inside">
+                            <div>
+                                <p>Check-in</p>
+                           
+                            </div> 
+                            <div class="night-count">
+                                <span id="diff">1</span><span class="nights"> gece</span>
+                            </div>  
+                            <div class="inside-item-3">
+                                <p>Çıkış</p>
+                            
+                            </div>
+                            <div class="container date-input-container" style="width: 275px !important">
+                                <input type="text" id="picker" class="nedir" name="datefilter" value="" />
+                              </div>
+                        </div>  
+                    </li>
+                    <li class="searchbar-item3">
+                        <div class="dropdown" id="drpdwnmenu">
+                            <a class="btn btn-secondary room-guest-icon-locate" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="room-guest-count">
+                                    <p>Odalar ve Misafirler</p>
+                                    <div class="align-hs">
+                                        <h6><input class="num-count-up room-num" type="text" id="value1" maxlength="12" value="1"> Oda &nbsp
+                                            <h6><input class="num-count-up room-num1" type="text" id="value3" maxlength="12" value="1">  yetişkin</h6></div>
+                                </div>
+                                <div class="angle-down-btn"><i class="fa fa-angle-down"></i>
+                                </div>
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="drpdwn">
+                              
+                                <a class="dropdown-item flex">
+                                 
+                                    <p class="rooms-amount">Odalar</p>
+                                    
+                                    <div class="arrange-btn">
+                                        <button class="dropdown-item minus" id="minus1"  type="button"><i class="fas fa-minus"></i> </button>
+                                        <input class="num-count room-num" type="text" id="value1" maxlength="12" value="1">
+                                    <button class="dropdown-item plus" id="plus1" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    
+                                  
+                                 
+                                </a>
+                      
+                                <a class="dropdown-item flex">
+                                 
+                                    <p class="rooms-amount">Yetişkinler</p>
+                                    
+                                    <div class="arrange-btn">
+                                        <button class="dropdown-item minus" id="minus2"  type="button"><i class="fas fa-minus"></i> </button>
+                                        <input class="num-count room-num1" type="text" id="value2" maxlength="12" value="1">
+                                    <button class="dropdown-item plus" id="plus2" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    
+                                  
+                                 
+                                </a>
+                                <a class="dropdown-item flex">
+                                 
+                                    <p class="rooms-amount">Çocuklar</p>
+                                    
+                                    <div class="arrange-btn">
+                                        <button class="dropdown-item minus" id="minus3"  type="button"><i class="fas fa-minus"></i> </button>
+                                        <input class="num-count room-num2" type="text" id="value3" maxlength="12" value="0">
+                                    <button class="dropdown-item plus" id="plus3" type="button"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                 </a>
+                                 <button class="dropdown-item finito-btn" id="btn-finito" type="button">Bitti</button>
+                            </div>
+                          </div>
+                        
+                        
+                        
+                    </li>
+                    <li class="searchbar-item4">
+                        <i class="fa fa-search"></i>
+                    </li>
+                    <li class="li-item-5">
+                        <div class="li-item-5-sub" id="checkbox1">
+                          <input type="checkbox"/>
+                        <label for="checkbox1">İş için seyahat ediyorum</label>
+                        
+                        </div>
+                        <div class="li-item-5-sub">
+                          <input type="checkbox"/>
+                        <label>Yıldız Derecelendirmesi
+                        </label>
+                        </div>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="stats">
+        <div class="stats-container margin-me">
+           
+
+            <div class="grid stats-grid-3 text-center my-1">
+                <div>
+                    <i class="fas fa-check-circle fa-2x"></i>
+                
+                    <h3 class="text-primary sm">Denendi,Onaylandı</h1>
+                    <p class=" text-primary sm">Tıpkı sizin gibi, dünya çapında 400 milyon seyahatsever de bize güveniyor</p>
+
+                </div>
+                <div>
+                    <i class="fas fa-route fa-2x"></i>
+                    <h3 class="text-primary">Seyahat Merkeziniz</h3>
+                    <p class="text-secondary">Arayışınız TatilMaximum ile sona eriyor. Baştan sona tüm seyahat planlarınızda yanınızdayız</p>
+                </div>
+                <div>
+                    <i class="fas fa-hands-helping fa-2x"></i>
+                    <h3 class="text-primary">Güvenilir Destek</h3>
+                    <p class="text-secondary ">Sizin için buradayız. Bize dilediginiz zaman telefon, e-posta veya online sohbet aracılıgıyla erişebilirsiniz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="subscribe-container">
+        <div class="subscribe-image"></div>
+        <div class="new-scale">
+            <div class="subscribe-text ">
+                <h2>Seyahatlerinizde %50'ye kadar tasarruf etmek ister misiniz ?</h2>
+    
+                <h3>
+                    11 Oca 2021 -12 Oca 2021 arası yapacağınız konaklamalar için oda fiyatlarını 
+                    takip edin ve fiyatlar düştüğünde e-posta bildirinleri alın!
+                </h3>
+            </div>
+            <div class="subscribe-input">
+                <div class="subscribe-input-inside">
+                    
+                <input type="email" placeholder="E-posta girin">
+                <a href="">Abone Ol</a>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="subscribe-close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <section class="recomended-hotels">
+        <div class="container  ">
+        
+                <h3 class="text-secondary text-center md my-3">Önerilen Oteller</h1>
+          
+            
+                <ul class="flex cities">
+                    <li><a href="#">Sanghay</a></li>
+                    <li><a href="#">Istanbul</a></li>
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">Budapest</a></li>
+                    <li><a href="#">Venice</a></li>
+                    <li><a href="#">Rome</a></li>
+                    <li><a href="#">Moscow</a></li>
+                    <li><a href="#">California</a></li>
+                    <li><a href="#">Antalya</a></li>
+                    <li><a href="#">Paris</a></li>
+                </ul>
+                    
+            
+           
+        </div>
+    </section>
+    <section class="home-cards">
+        
+        <div class="">
+          <img src="./img/otel1.jpg" alt="">
+          <h3>Citigo Hotel Hongqiao Shangai</h3>
+          <h3 >&#9733;&#9733;&#9733;&#9733;&#9733;</h3>
+          <p>
+            Kalkış şehri <span class="price">540 TL</span>
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="">
+          <img src="./img/otel2.jpg" alt="" />
+          <h3>Atour Hotel</h3>
+          <h3 >&#9733;&#9733;&#9733;&#9733;</h3>
+          <p>
+            Kalkış şehri <span class="price">360 TL</span>
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="">
+          <img src="./img/otel3.jpg" alt="" />
+          <h3>Wanda Reign on the Bund</h3>
+          <h3 class="">&#9733;&#9733;&#9733;</h3>
+          <p>
+            Kalkış şehri <span class="price">210 TL</span>
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="">
+          <img src="./img/otel4.jpg" alt="" />
+          <h3 class="">Shanghai Wujiaochang Hotel</h3>
+          <h3 class="">&#9733;&#9733;&#9733;&#9733;&#9733;</h3>
+          <p>
+            Kalkış şehri <span class="price">750 TL</span>
+          </p>
+          <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+    
+      </section>
+      <section class="mobile">
+        <div class="cont">
+          <div class="box">
+              <div class="one"><div class="my-5"><img src="./img/index.png" alt="" /></div></div>
+              <div class="two my-5">
+                  <h1 class="my-1"> Kolayı Var</h1>
+                  <p >Dilediğiniz yerden saniyeler içinde uçuş, otel, tren ve kir
+                      alık araç rezervasyonu yapın. Gerçek zamanlı uçuş güncellemeleri, 
+                      seyahat bilgileri, özel teklifler ve %30 daha fazla Trip Coin
+                      s yalnızca uygulamamızda!</p>
+                      <h3 class="my-3">Uygulamamızı indirebileceğiniz bir bağlantının
+                           kısa mesaj ile tarafınıza iletilmesi için telefon numaranızı girin</h3>
+                          <input type="phone" placeholder="         | Cep telefonu numarası">
+                          <a class="btn">Uygulama Bağlantısı gönder</a>
+              </div>
+             
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer-container">
+        <div class="footer-contents">
+            <div class="footer-content">
+            <div class="footer-content-1">
+               <div class="content-11">
+                 <div><a class="nameless" href="#">
+                    <img src="./img/turkey.png" alt=""> Türkçe</a> </div>  
+                <div><i class="fas fa-chevron-down ml-5">   </i></div>
+                    
+                </div> 
+                <div class="content-11">
+                    <div><a class="nameless" href="#">TRY</a> </div>  
+                   <div><i class="fas fa-chevron-down ml-5">   </i></div>
+                       
+                   </div> 
+            </div>
+            <div class="footer-content-2">
+                <h3>Hakkında</h3>
+                <ul class="links">
+                    <li><a href="#">TatilMaximum Hakkında</a></li>
+                    <li><a href="#">Hizmet Garantisi</a></li>
+                    <li><a href="#">Haberler</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                    <li><a href="#">Hüküm ve Koşullar</a></li>
+                    <li><a href="#">Gizlilik Bildirimi</a></li>
+                </ul>
+            </div>
+            <div class="footer-content-3">
+                <h3>Diğer Hizmetler</h3>
+                <ul class="links">
+                    <li><a href="#">Yatırımcı İlişkiler</a></li>
+                    <li><a href="#">Tatilmaximum.com Ödülleri</a></li>
+                    <li><a href="#">İş Ortakları</a></li>
+                    <li><a href="#">Otelimi Listele</a></li>
+                </ul>
+            </div>
+            <div class="footer-content-4">
+                <h3>Bize Ulaşın</h3>
+                <ul class="links">
+                    <li><a href="#">Web Sitesi Geri Bildirimi</a></li>
+                    <li><a href="#">Müşteri Desteği</a></li>
+                
+                </ul>
+                <ul class="social-icons">
+                   <li><i class="fab fa-facebook"></i></li> 
+                   <li><i class="fab fa-instagram"></i></li> 
+                   <li><i class="fab fa-twitter"></i></li> 
+                   <li><i class="fab fa-youtube"></i></li> 
+                   
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5" style="width: 400px">
+        <input type="text" id="picker" class="form-control fck" />
+      </div>
+</main>
+
+
+
+
+    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="daterangepicker.js"></script>
+    <script type="text/javascript">
+        $(function () {
+          $('input[name="datefilter"]').daterangepicker({
+            autoUpdateInput: false,
+            locale: {
+              cancelLabel: "Clear",
+
+            },
+          });
+  
+          $('input[name="datefilter"]').on(
+            "apply.daterangepicker",
+            function (ev, picker) {
+              $(this).val(
+                picker.startDate.format("DD/MM/YYYY") +
+                  "                       " +
+                  picker.endDate.format("DD/MM/YYYY")
+              );
+            }
+          );
+          $('input[name="datefilter"]').on("apply.daterangepicker",
+          function (ev, picker) {
+              $('#diff').text(parseInt(picker.endDate.format("DD")) - parseInt(picker.startDate.format("DD"))) + ' gece ';
+              
+         
+           
+            });
+  
+          $('input[name="datefilter"]').on(
+            "cancel.daterangepicker",
+            function (ev, picker) {
+              $(this).val("");
+            }
+          );
+
+          $('.dropdown-menu').on({
+                 "click":function(e) {
+                     e.stopPropagation();
+                }
+            });
+      
+        
+        
+        
+        });
+      </script>
+</body>
+
+</html>
